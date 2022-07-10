@@ -1,52 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0px;
+  font-family: "Inter", "sans-serif";
   background-color: #282d35;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  font-family: "Inter";
-  background-color: #21222a;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-
-.logo {
-  display: flex;
   align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text,
+.nav--title {
+  margin: 0px;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  margin-left: 5px;
   color: #61dafb;
-  padding-left: 20px;
+  font-weight: 700;
 }
 
-.icon-title {
-  margin: 10px;
-}
-
-.title {
+.nav--title {
   color: #deebf8;
-  padding-right: 20px;
-  margin: 10px;
 }
 
-.main {
-  font-family: "Inter";
+.nav--icon {
+  height: 30px;
+}
+
+main {
   color: #fff;
-  margin-top: 50px !important;
-  margin: 16px;
+  padding: 57px 27px;
 }
 
-li {
-  font-style: regular;
-  line-height: 1.5;
-  color: #fff;
-  list-style: none;
-  margin-left: -25px;
+.main--title {
+  margin: 0px;
+  font-size: 39px;
 }
 
-.dot-style:before {
-  content: "•";
-  padding-right: 10px;
-  vertical-align: middle;
-  font-size: 1.8em;
+.main-facts {
+  margin-top: 46px;
+  max-width: 450px;
+}
+
+.main-facts > li {
+  padding-block: 10px;
+}
+
+.main-facts > li::marker {
+  font-size: 1.4rem;
   color: #61dafb;
 }
