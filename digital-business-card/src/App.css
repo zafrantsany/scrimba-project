@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+body {
+  background-color: #23252c;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+
+img {
+  width: auto;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container {
+  max-width: 317px;
+  background-color: #1a1b21;
+  border-radius: 10px 10px 10px 10px;
+  margin: 150px auto;
+  height: 780px;
+}
+
+.name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: -15px;
+  color: #f3bf99;
+}
+
+.website {
+  color: #fff;
+  font-style: none;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 240px;
+}
+
+.email-button {
+  padding: 10px;
+  width: 115px;
+  border-radius: 6px;
+  color: #374151;
+  font-weight: bold;
+}
+
+.linkedin-button {
+  padding: 10px;
+  width: 115px;
+  border-radius: 6px;
+  background-color: #5093e2;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10px;
+  max-width: 240px;
+  margin: 0px auto;
+  line-height: 15px;
+}
+
+.about {
+  margin-left: 38px;
+  margin-bottom: 7px;
+}
+
+.interests {
+  margin-left: 38px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #161619;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.social {
+  margin-top: 30px;
+  padding: 20px 60px 0px 60px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
